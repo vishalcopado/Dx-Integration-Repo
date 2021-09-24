@@ -25,6 +25,11 @@
         <field>c1__c.f1__c</field>
         <readable>true</readable>
     </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>c2__c.c2f1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
     <layoutAssignments>
         <layout>Account-Account Layout</layout>
     </layoutAssignments>
@@ -33,6 +38,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>c1__c-c1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>c2__c-c2 Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
@@ -53,13 +61,13 @@
         <object>c1__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
-       <objectPermissions>
+    <objectPermissions>
         <allowCreate>true</allowCreate>
         <allowDelete>true</allowDelete>
         <allowEdit>true</allowEdit>
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
-        <object>c1_temp1__c</object>
+        <object>c2__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
