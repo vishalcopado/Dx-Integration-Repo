@@ -16,8 +16,13 @@
         <readable>true</readable>
     </fieldPermissions>
     <fieldPermissions>
-        <editable>true</editable>
+        <editable>false</editable>
         <field>Custom_Object_1__c.Custom_field_1__c</field>
+        <readable>true</readable>
+    </fieldPermissions>
+    <fieldPermissions>
+        <editable>false</editable>
+        <field>c1__c.f1__c</field>
         <readable>true</readable>
     </fieldPermissions>
     <layoutAssignments>
@@ -25,6 +30,9 @@
     </layoutAssignments>
     <layoutAssignments>
         <layout>Custom_Object_1__c-Custom Object 1 Layout</layout>
+    </layoutAssignments>
+    <layoutAssignments>
+        <layout>c1__c-c1 Layout</layout>
     </layoutAssignments>
     <loginHours n1:nil="true" />
     <objectPermissions>
@@ -34,6 +42,15 @@
         <allowRead>true</allowRead>
         <modifyAllRecords>true</modifyAllRecords>
         <object>Custom_Object_1__c</object>
+        <viewAllRecords>true</viewAllRecords>
+    </objectPermissions>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>true</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>true</modifyAllRecords>
+        <object>c1__c</object>
         <viewAllRecords>true</viewAllRecords>
     </objectPermissions>
     <userLicense>Salesforce</userLicense>
